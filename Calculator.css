@@ -1,0 +1,94 @@
+body
+{
+	user-select: none;
+	font-family: Roboto;
+}
+#instant-result-div
+{
+	margin-top: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: end;
+	width: 100%;
+	height: 10px;
+}
+#instant-result-text
+{
+	margin-top: 0;
+	user-select: all;
+	margin-bottom: 0;
+	font-size: 36px;
+	color: rgb(150, 150, 150);
+}
+#result-div
+{
+	display: flex;
+	justify-content: center;
+	align-items: end;
+	width: 100%;
+	height: 60px;
+}
+#result-text
+{
+	margin-top: 0;
+	user-select: all;
+	margin-bottom: 0;
+	font-size: 43px;
+	color: rgb(44, 44, 44);
+}
+#cal-buttons-grid-div
+{
+	display: flex;
+	justify-content: center;
+}
+#cal-grid
+{
+	border-style: solid none none none;
+	border-width: 1px;
+	border-color: rgb(150, 150, 150);
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+}
+
+.cal-button
+{
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	background: none;
+	border: none;
+	width: 100px;
+	height: 100px;
+	cursor: pointer;
+	font-size: 43px;
+} 
+.cal-button.orange
+{
+	color: orange;
+}
+
+.hidden
+{
+	display: none;
+}
+
+#radical-button
+{
+	color: gray;
+}
+#left-bar-button
+{
+    color: gray;
+}
+#right-bar-button
+{
+	color: gray;
+}
+#power-button
+{
+	color: gray;
+}
+.icon
+{
+	font-size: 32px;
+}
