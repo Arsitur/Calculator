@@ -2,6 +2,7 @@ body
 {
 	user-select: none;
 	font-family: Roboto;
+	overflow: hidden;
 }
 #instant-result-div
 {
